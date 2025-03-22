@@ -1,0 +1,8 @@
+START
+1. Initialize InventoryList as an ArrayList of StockItem objects
+2. Initialize InventoryMap as a HashTable with StockItemName as key and StockItemQuantity as value
+3. Input: StockItemName, Quantity
+4. Add StockItem to InventoryList
+5. Update InventoryMap: InventoryMap[StockItemName] = InventoryMap[StockItemName] + Quantity
+6. Output: Updated Inventory
+END
