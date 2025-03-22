@@ -1,0 +1,11 @@
+START
+1. Initialize InventoryList as an ArrayList of StockItem objects
+2. Input: StockItemName to search
+3. FOR each StockItem in InventoryList
+   a. IF StockItem.Name equals StockItemName
+      i. Output: "Item Found: " + StockItem.Name + ", Quantity: " + StockItem.Quantity
+      ii. Exit Loop
+   b. END IF
+4. END FOR
+5. Output: "Error: Item not found" (if no match is found)
+END
